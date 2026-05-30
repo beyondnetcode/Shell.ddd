@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>BeyondNetCode.Shell.Ddd.ValueObjects</AssemblyName>
+    <RootNamespace>BeyondNetCode.Shell.Ddd.ValueObjects</RootNamespace>
+    <Title>BeyondNetCode.Shell.Ddd.ValueObjects</Title>
+    <Copyright>BeyondNet</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>LICENSE</PackagePath>
+    </None>
+    <None Include="../../README.md">
+      <Pack>True</Pack>
+      <PackagePath>README.md</PackagePath>
+    </None>
+    <None Include="../BeyondNetCode.Shell.Ddd/.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="../BeyondNetCode.Shell.Ddd/BeyondNetCode.Shell.Ddd.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,23 @@
+﻿using BeyondNetCode.Shell.Ddd.Interfaces;
+
+namespace BeyondNetCode.Shell.Ddd
+{
+    /// <summary>
+    /// Represents a domain event.
+    /// </summary>
+    public abstract record DomainEvent : IDomainEvent
+    {
+        public IMetadata Metadata { get; private set; } = default!;
+        public DateTime CreatedAt { get; }
+
+        protected DomainEvent()
+        {
+            CreatedAt = DateTime.UtcNow;
+        }
+
+        public void SetMetadata(IMetadata metadata)
+        {
+            Metadata = metadata;
+        }
+    }
+}

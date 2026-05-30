@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>BeyondNetCode.Shell.Ddd</AssemblyName>
+    <RootNamespace>BeyondNetCode.Shell.Ddd</RootNamespace>
+    <Title>BeyondNetCode.Shell.Ddd</Title>
+    <Authors>BeyondNetCode</Authors>
+    <Description>A simple library to implement Domain-Driven Design with .NET and C#</Description>
+    <Copyright>BeyondNet</Copyright>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/beyondnetcode/Shell.ddd</RepositoryUrl>
+    <PackageTags>Ddd</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <AnalysisLevel>5.0-all</AnalysisLevel>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../LICENSE">
+      <Pack>True</Pack>
+      <PackagePath>LICENSE</PackagePath>
+    </None>
+    <None Include="../../README.md">
+      <Pack>True</Pack>
+      <PackagePath>README.md</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.4.1" />
+  </ItemGroup>
+
+</Project>

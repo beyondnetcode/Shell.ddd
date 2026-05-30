@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="BeyondNetCode.Shell.Ddd.AutoMapper/BeyondNetCode.Shell.Ddd.AutoMapper.csproj" />
+  <Project Path="BeyondNetCode.Shell.Ddd.Tests/BeyondNetCode.Shell.Ddd.Tests.csproj" />
+  <Project Path="BeyondNetCode.Shell.Ddd.ValueObjects/BeyondNetCode.Shell.Ddd.ValueObjects.csproj" />
+  <Project Path="BeyondNetCode.Shell.Ddd/BeyondNetCode.Shell.Ddd.csproj" />
+</Solution>

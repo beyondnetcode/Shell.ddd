@@ -1,0 +1,12 @@
+﻿global using AutoMapper;
+global using Shouldly;
+global using BeyondNetCode.Shell.Ddd.Test.AutoMapper;
+global using BeyondNetCode.Shell.Ddd.Test.Dtos;
+global using BeyondNetCode.Shell.Ddd.Test.Entities;
+global using BeyondNetCode.Shell.Ddd.ValueObjects.Common;
+global using BeyondNetCode.Shell.Ddd.Rules;
+global using BeyondNetCode.Shell.Ddd.Rules.PropertyChange;
+global using BeyondNetCode.Shell.Ddd.AutoMapper.Impl;
+global using BeyondNetCode.Shell.Ddd.ValueObjects.Audit;
+global using BeyondNetCode.Shell.Ddd.Rules.Impl;
+global using BeyondNetCode.Shell.Ddd.Interfaces; 
