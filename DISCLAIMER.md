@@ -1,15 +1,8 @@
 # Disclaimer - Initial Code Authorship
 
-This project (`BeyondNetCode.Shell.Ddd`) includes initial code that was originally authored by **raulnq** and made available at [https://github.com/raulnq](https://github.com/raulnq).
+This repository (**Shell.ddd**) is a *port* of the original Domain-Driven Design library for NestJS, available at [nestjslatam/ddd](https://github.com/nestjslatam/ddd).
 
-The original code from that repository served as the foundation and starting point for portions of this project's implementation. We are grateful to the original author for making this code publicly available.
+Both projects were independently created and are maintained by **Alberto Arroyo**. It is expressly clarified that this project **has no relationship, affiliation, or dependency** whatsoever with `raulnq` or any of their repositories.
 
-Additionally, this project was inspired by and based on the work available at [https://github.com/csdevlib/ddd](https://github.com/csdevlib/ddd), which was downloaded and integrated into the BeyondNetCode.Ddd library.
+Any similarities in structure, naming conventions, or code with third-party projects are purely coincidental and strictly result from the application of standard industry concepts, architectures, and patterns regarding Domain-Driven Design (DDD).
 
-All subsequent modifications, enhancements, and extensions within this project are subject to the license terms specified in the [LICENSE](LICENSE) file.
-
----
-
-**Original Repositories:**
-- [https://github.com/raulnq](https://github.com/raulnq)
-- [https://github.com/csdevlib/ddd](https://github.com/csdevlib/ddd)
